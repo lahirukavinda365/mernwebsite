@@ -23,20 +23,7 @@ const Navbar = () => {
         <li className="nav-item">
           <a className="nav-link" href="#">Contacts</a>
         </li>
-        {/* <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li> */}
-        {/* <li className="nav-item">
-          <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li> */}
+        
       </ul>
       <a className='navbar-brand fw-bolder fs-4 mx-auto' href='#'>Navbar</a>
       <button className="btn btn-outline-primary ms-auto px-4 rounded-pill"><i className='fa fa-sign-in me-2'></i> Login</button>
