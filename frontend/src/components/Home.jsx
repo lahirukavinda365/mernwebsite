@@ -1,4 +1,8 @@
 import React from 'react'
+import About from './About'
+import Services from './Services'
+import Contact from './Contact'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -15,14 +19,18 @@ const Home = () => {
                              explicabo hic! Quis, unde.
                         </p>
                         <div className="buttons d-flex justify-content-center">
-                            <button className='btn btn-light me-4 rounded-pill px-4 py-2'>Get Quote</button>
-                            <button className='btn btn-outline-light me-4 rounded-pill px-4 py-2'>Our Services</button>
+                            <NavLink className='btn btn-light me-4 rounded-pill px-4 py-2' to='/contact'>Get Quote</NavLink>
+                            <NavLink className='btn btn-outline-light me-4 rounded-pill px-4 py-2' to='/service'>Our Services</NavLink>
 
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <About />
+        <Services />
+        <Contact />
+        
     </div>
   )
 }
